@@ -1,12 +1,12 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import { SignupFormDemo } from "./components/component/Form";
-import { NavbarDemo } from "./components/component/Navbar";
+import { FloatingDockDemo } from "./components/component/FloatingDock";
 
 function App() {
   return (
     <>
-      {/* <NavbarDemo /> */}
-      <SignupFormDemo />
+      <Outlet />
+      <FloatingDockDemo/>
     </>
   );
 }
