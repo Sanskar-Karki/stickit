@@ -32,6 +32,20 @@ const NewProject = () => {
         onResize={handleResize}
         onDrag={handleDrag}
       />
+      <Card
+        defaultPosition={{ x: 900, y: 200 }}
+        defaultSize={{ width: 300, height: 400 }}
+        backgroundColor="#eb2c135e"
+        onResize={handleResize}
+        onDrag={handleDrag}
+      />
+      <Card
+        defaultPosition={{ x: 900, y: 200 }}
+        defaultSize={{ width: 300, height: 400 }}
+        backgroundColor="#eb2c135e"
+        onResize={handleResize}
+        onDrag={handleDrag}
+      />
     </div>
   );
 };
